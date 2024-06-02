@@ -5,11 +5,11 @@ Here's an enhanced version of your README with better heading design and clear s
 # Plants-Vs-Zombies_GOTY
 Redesigned the limited Game of the Year Edition of the famous Plants Vs Zombies Game using SFML Library in C++
 
-![Screenshot of the game](https://github.com/talhashafi-04/Plants-Vs-Zombies_GOTY/blob/67169ae7f5d70d76dfb8716446bfe4fba90a9656/ScreenShots/pvz%204.png
+![Screenshot of the game](https://github.com/talhashafi-04/Plants-Vs-Zombies_GOTY/blob/67169ae7f5d70d76dfb8716446bfe4fba90a9656/ScreenShots/pvz%204.png)
 
 ## Watch the Gameplay Trailer
 
-[![Gameplay Trailer](https://img.youtube.com/vi/YOUR_VIDEO_ID_HERE/0.jpg)](https://www.youtube.com/watch?v=YOUR_VIDEO_ID_HERE)
+[![Gameplay Trailer](https://img.youtube.com/vi/y0q5dQo1IGY/0.jpg)](https://www.youtube.com/watch?v=y0q5dQo1IGY)
 
 ---
 
