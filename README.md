@@ -1,6 +1,6 @@
 # Credits :
-@[talhashafi-04]
-@[jimjawad57]
+@talhashafi-04
+@jimjawad57
 
 ---
 
