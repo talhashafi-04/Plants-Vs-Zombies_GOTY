@@ -39,3 +39,69 @@ select plants, and place them on the grid. Clicking is used to collect sunlight,
 interact with in-game elements like zombies and special abilities. Keyboard shortcuts may also be
 available for certain actions, such as pausing the game or accessing menus. Overall, "Plants vs.
 Zombies" offers accessible mechanics and controls, making it enjoyable for players of all skill levels.
+
+Here's a "How to Use" guide for your GitHub repository:
+
+---
+
+# How to Use PVZ-GOTY
+
+This guide will help you set up and run the PVZ-GOTY project on your local machine. Follow the steps below to get started.
+
+## Prerequisites
+
+Before you begin, ensure you have met the following requirements:
+
+- **Operating System**: Windows
+- **Visual Studio**: Visual Studio 2022 with the Desktop Development with C++ workload installed
+
+The SFML library is already linked in the repository, so there's no need to download anything extra.
+
+## Cloning the Repository
+
+To get a copy of the project up and running, you have two options: cloning the repository or downloading the repository as a ZIP file. Cloning is recommended for ease of use.
+
+### Cloning the Repository (Recommended)
+
+1. Open a terminal (Command Prompt, PowerShell, or Git Bash).
+2. Navigate to the directory where you want to clone the repository.
+3. Run the following command:
+
+   ```bash
+   git clone https://github.com/yourusername/PVZ-GOTY.git
+   ```
+
+### Downloading the Repository
+
+1. Go to the GitHub repository page.
+2. Click on the green "Code" button.
+3. Select "Download ZIP".
+4. Extract the ZIP file to your desired location.
+
+## Opening the Project
+
+1. Open Visual Studio 2022.
+2. Click on `File` > `Open` > `Project/Solution`.
+3. Navigate to the directory where you cloned/downloaded the repository.
+4. Select the `PVZ-GOTY.sln` file and click `Open`.
+
+## Running the Program
+
+1. Once the solution is loaded in Visual Studio, ensure that the build configuration is set to either `Debug` or `Release` as per your preference.
+2. Click on the `Local Windows Debugger` button or press `F5` to build and run the program.
+
+## Troubleshooting
+
+- Ensure that you have installed Visual Studio 2022 with the Desktop Development with C++ workload.
+- If you encounter any issues with missing files or dependencies, make sure that all files have been properly cloned/downloaded and extracted.
+
+## Additional Information
+
+- For more detailed instructions on using Git, refer to the [Git Documentation](https://git-scm.com/doc).
+- For help with Visual Studio, visit the [Visual Studio Documentation](https://docs.microsoft.com/en-us/visualstudio/).
+
+---
+
+By following these instructions, you should be able to successfully clone, open, and run the PVZ-GOTY project on your local machine. If you encounter any issues or have any questions, feel free to open an issue on the repository.
+
+
