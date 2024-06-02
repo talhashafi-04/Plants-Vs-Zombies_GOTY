@@ -1,3 +1,6 @@
+# Credits :
+@[talhashafi-04]
+@[jimjawad57]
 
 ---
 
@@ -6,6 +9,7 @@
 **Redesigned the limited Game of the Year Edition of the famous Plants Vs Zombies Game using SFML Library in C++.**  
 **Utilized principles of Object-Oriented Programming to build a fast, reliable, and scalable game.**  
 **Implemented various Industrial Design Patterns like Factory Method, Singleton, etc.**
+
 
 ![Screenshot of the game](https://github.com/talhashafi-04/Plants-Vs-Zombies_GOTY/blob/67169ae7f5d70d76dfb8716446bfe4fba90a9656/ScreenShots/pvz%204.png)
 
