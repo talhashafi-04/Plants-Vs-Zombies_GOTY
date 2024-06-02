@@ -7,7 +7,7 @@ Redesigned the limited Game of the Year Edition of the famous Plants Vs Zombies 
 
 ![Screenshot of the game](https://github.com/talhashafi-04/Plants-Vs-Zombies_GOTY/blob/67169ae7f5d70d76dfb8716446bfe4fba90a9656/ScreenShots/pvz%204.png)
 
-## Watch the Gameplay Trailer
+## Watch the Youtube Gameplay Trailer
 
 [![Gameplay Trailer](https://img.youtube.com/vi/y0q5dQo1IGY/0.jpg)](https://www.youtube.com/watch?v=y0q5dQo1IGY)
 
