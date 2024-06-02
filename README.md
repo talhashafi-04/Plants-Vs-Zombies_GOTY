@@ -3,14 +3,17 @@ Here's an enhanced version of your README with better heading design and clear s
 ---
 
 # Plants-Vs-Zombies_GOTY
+Redesigned the famous Plants Vs Zombies Game using SFML Library in C++
 
 ![Screenshot of the game](https://github.com/talhashafi-04/Plants-Vs-Zombies_GOTY/blob/67169ae7f5d70d76dfb8716446bfe4fba90a9656/ScreenShots/pvz%204.png)
 
-Redesigned the famous Plants Vs Zombies Game using SFML Library in C++
+---
 
 ## ZombieWarFrame Storyline
 
 In the peaceful world of Verdantia, a terrible invasion occurred. Extraterrestrial zombies attacked, threatening all life. The inhabitants panicked, but the sentient plants of Verdantia fought back. They used their natural powers to defend their home. In a desperate move, the Elderwood, the oldest of them all, unleashed a powerful wave that banished the zombies and saved Verdantia. Though wounded, the planet survived, thanks to its brave plant guardians.
+
+---
 
 ## Zombie Warframe Gameplay
 ![Screenshot of the game](https://github.com/talhashafi-04/Plants-Vs-Zombies_GOTY/blob/875779dff3689037019c551b1db690503cbb1d3f/ScreenShots/pvz%208.png)
