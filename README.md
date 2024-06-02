@@ -1,3 +1,6 @@
+
+![Screenshot of the game](https://github.com/talhashafi-04/Plants-Vs-Zombies_GOTY/blob/e49fbe9b7d7810cc9b62e8423a94daa6522718f3/ScreenShots/pvz1.png)
+
 # Plants-Vs-Zombies_GOTY
 
 Redesigned the famous Plants Vs Zombies Game using SFML Library in C++
