@@ -17,7 +17,6 @@
       <Configuration>Release</Configuration>
       <Platform>x64</Platform>
     </ProjectConfiguration>
-
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
@@ -53,37 +52,37 @@
     <WholeProgramOptimization>true</WholeProgramOptimization>
     <CharacterSet>Unicode</CharacterSet>
   </PropertyGroup>
-
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
   <ImportGroup Label="ExtensionSettings">
   </ImportGroup>
-  <ImportGroup Label="Shared" >
+  <ImportGroup Label="Shared">
   </ImportGroup>
-    <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
-      <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
-    </ImportGroup>
-    <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
-      <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
-    </ImportGroup>
-    <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
-      <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
-    </ImportGroup>
-    <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
-      <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
-    </ImportGroup>
-
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
   <PropertyGroup Label="UserMacros" />
-
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
       <WarningLevel>Level3</WarningLevel>
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>.\SFML\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>.\SFML\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>sfml-system-d.lib;sfml-window-d.lib;sfml-graphics-d.lib;sfml-audio-d.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
@@ -94,12 +93,15 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>.\SFML\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
       <OptimizeReferences>true</OptimizeReferences>
       <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>sfml-system.lib;sfml-window.lib;sfml-graphics.lib;sfml-audio.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>.\SFML\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
@@ -108,10 +110,13 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>.\SFML\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>.\SFML\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>sfml-system-d.lib;sfml-window-d.lib;sfml-graphics-d.lib;sfml-audio-d.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
@@ -122,16 +127,117 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>.\SFML\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
       <OptimizeReferences>true</OptimizeReferences>
       <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>sfml-system.lib;sfml-window.lib;sfml-graphics.lib;sfml-audio.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>.\SFML\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
     </Link>
   </ItemDefinitionGroup>
-
-  <ItemGroup></ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="PROJECT\BeginnersGarden.cpp" />
+    <ClCompile Include="PROJECT\Bullet.cpp" />
+    <ClCompile Include="PROJECT\Cactus.cpp" />
+    <ClCompile Include="PROJECT\Card.cpp" />
+    <ClCompile Include="PROJECT\Character.cpp" />
+    <ClCompile Include="PROJECT\CherryBomb.cpp" />
+    <ClCompile Include="PROJECT\DancingZombie.cpp" />
+    <ClCompile Include="PROJECT\DolphinRiderZombie.cpp" />
+    <ClCompile Include="PROJECT\Explosion.cpp" />
+    <ClCompile Include="PROJECT\FlyingZombie.cpp" />
+    <ClCompile Include="PROJECT\FootballZombie.cpp" />
+    <ClCompile Include="PROJECT\FrozenPea.cpp" />
+    <ClCompile Include="PROJECT\FrozenPeaShooter.cpp" />
+    <ClCompile Include="PROJECT\Game.cpp" />
+    <ClCompile Include="PROJECT\GameObject.cpp" />
+    <ClCompile Include="PROJECT\Instructions.cpp" />
+    <ClCompile Include="PROJECT\Intro.cpp" />
+    <ClCompile Include="PROJECT\Lawn.cpp" />
+    <ClCompile Include="PROJECT\LawnMower.cpp" />
+    <ClCompile Include="PROJECT\Level.cpp" />
+    <ClCompile Include="PROJECT\MainMenu.cpp" />
+    <ClCompile Include="PROJECT\MovingObject.cpp" />
+    <ClCompile Include="PROJECT\MovingObjectArr.cpp" />
+    <ClCompile Include="PROJECT\Pea.cpp" />
+    <ClCompile Include="PROJECT\PeaShooter.cpp" />
+    <ClCompile Include="PROJECT\Plant.cpp" />
+    <ClCompile Include="PROJECT\PlantArr.cpp" />
+    <ClCompile Include="PROJECT\PlantFactory.cpp" />
+    <ClCompile Include="PROJECT\Player.cpp" />
+    <ClCompile Include="PROJECT\PlayerArray.cpp" />
+    <ClCompile Include="PROJECT\Point.cpp" />
+    <ClCompile Include="PROJECT\Repeater.cpp" />
+    <ClCompile Include="PROJECT\ScoreBoard.cpp" />
+    <ClCompile Include="PROJECT\Screen.cpp" />
+    <ClCompile Include="PROJECT\SelectLevel.cpp" />
+    <ClCompile Include="PROJECT\ShootingPlant.cpp" />
+    <ClCompile Include="PROJECT\Shop.cpp" />
+    <ClCompile Include="PROJECT\SimpleZombie.cpp" />
+    <ClCompile Include="PROJECT\Source2.cpp" />
+    <ClCompile Include="PROJECT\Sun.cpp" />
+    <ClCompile Include="PROJECT\SunFlower.cpp" />
+    <ClCompile Include="PROJECT\SunflowerFields.cpp" />
+    <ClCompile Include="PROJECT\TakeName.cpp" />
+    <ClCompile Include="PROJECT\Wallnut.cpp" />
+    <ClCompile Include="PROJECT\Zombie.cpp" />
+    <ClCompile Include="PROJECT\ZombieArr.cpp" />
+    <ClCompile Include="PROJECT\ZombieFactory.cpp" />
+    <ClCompile Include="PROJECT\ZombieOutskirts.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="PROJECT\BeginnersGarden.h" />
+    <ClInclude Include="PROJECT\Bullet.h" />
+    <ClInclude Include="PROJECT\Cactus.h" />
+    <ClInclude Include="PROJECT\Card.h" />
+    <ClInclude Include="PROJECT\Character.h" />
+    <ClInclude Include="PROJECT\CherryBomb.h" />
+    <ClInclude Include="PROJECT\DancingZombie.h" />
+    <ClInclude Include="PROJECT\DolphinRiderZombie.h" />
+    <ClInclude Include="PROJECT\Explosion.h" />
+    <ClInclude Include="PROJECT\FlyingZombie.h" />
+    <ClInclude Include="PROJECT\FootballZombie.h" />
+    <ClInclude Include="PROJECT\FrozenPea.h" />
+    <ClInclude Include="PROJECT\FrozenPeaShooter.h" />
+    <ClInclude Include="PROJECT\Game.h" />
+    <ClInclude Include="PROJECT\GameObject.h" />
+    <ClInclude Include="PROJECT\Header.h" />
+    <ClInclude Include="PROJECT\Instructions.h" />
+    <ClInclude Include="PROJECT\Intro.h" />
+    <ClInclude Include="PROJECT\Lawn.h" />
+    <ClInclude Include="PROJECT\LawnMower.h" />
+    <ClInclude Include="PROJECT\Level.h" />
+    <ClInclude Include="PROJECT\MainMenu.h" />
+    <ClInclude Include="PROJECT\MovingObject.h" />
+    <ClInclude Include="PROJECT\MovingObjectArr.h" />
+    <ClInclude Include="PROJECT\Pea.h" />
+    <ClInclude Include="PROJECT\PeaShooter.h" />
+    <ClInclude Include="PROJECT\Plant.h" />
+    <ClInclude Include="PROJECT\PlantArr.h" />
+    <ClInclude Include="PROJECT\PlantFactory.h" />
+    <ClInclude Include="PROJECT\Player.h" />
+    <ClInclude Include="PROJECT\PlayerArray.h" />
+    <ClInclude Include="PROJECT\Point.h" />
+    <ClInclude Include="PROJECT\Repeater.h" />
+    <ClInclude Include="PROJECT\ScoreBoard.h" />
+    <ClInclude Include="PROJECT\Screen.h" />
+    <ClInclude Include="PROJECT\SelectLevel.h" />
+    <ClInclude Include="PROJECT\ShootingPlant.h" />
+    <ClInclude Include="PROJECT\Shop.h" />
+    <ClInclude Include="PROJECT\SimpleZombie.h" />
+    <ClInclude Include="PROJECT\Sun.h" />
+    <ClInclude Include="PROJECT\SunFlower.h" />
+    <ClInclude Include="PROJECT\SunflowerFields.h" />
+    <ClInclude Include="PROJECT\TakeName.h" />
+    <ClInclude Include="PROJECT\Wallnut.h" />
+    <ClInclude Include="PROJECT\Zombie.h" />
+    <ClInclude Include="PROJECT\ZombieArr.h" />
+    <ClInclude Include="PROJECT\ZombieFactory.h" />
+    <ClInclude Include="PROJECT\ZombieOutskirts.h" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

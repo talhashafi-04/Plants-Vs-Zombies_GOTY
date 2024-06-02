@@ -1,0 +1,6 @@
+Jawad,62,2
+Zia,5,1
+Talha,2,1
+Zakki,0,1
+TALHA,0,1
+amna,0,1
