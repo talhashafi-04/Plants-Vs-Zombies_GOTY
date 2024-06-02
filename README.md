@@ -11,8 +11,9 @@
 ![Screenshot of the game](https://github.com/talhashafi-04/Plants-Vs-Zombies_GOTY/blob/67169ae7f5d70d76dfb8716446bfe4fba90a9656/ScreenShots/pvz%204.png)
 
 ### Credits :
-@talhashafi-04
-@jimjawad57
+To collaborate on this project, please contact [@talhashafi-04](https://github.com/talhashafi-04).
+To collaborate on this project, please contact [@jimjawad57](https://github.com/@jimjawad57).
+
 
 ---
 
