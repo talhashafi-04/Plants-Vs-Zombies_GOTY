@@ -1,7 +1,8 @@
-Here's an enhanced version of your README with better heading design and clear sections. 
+### Plants-Vs-Zombies_GOTY
+Redesigned the limited Game of the Year Edition of the famous Plants Vs Zombies Game using SFML Library in C++
+![Screenshot of the game](https://github.com/talhashafi-04/Plants-Vs-Zombies_GOTY/blob/67169ae7f5d70d76dfb8716446bfe4fba90a9656/ScreenShots/pvz%204.png)
 
 ---
-
 
 ## ZombieWarFrame Storyline
 
@@ -19,10 +20,8 @@ In "Plants-Vs-Zombies" , players strategically defend their home from invading z
 
 ---
 
-# Plants-Vs-Zombies_GOTY
-Redesigned the limited Game of the Year Edition of the famous Plants Vs Zombies Game using SFML Library in C++
 
-![Screenshot of the game](https://github.com/talhashafi-04/Plants-Vs-Zombies_GOTY/blob/67169ae7f5d70d76dfb8716446bfe4fba90a9656/ScreenShots/pvz%204.png)
+
 
 ## Watch the Youtube Gameplay Trailer
 
