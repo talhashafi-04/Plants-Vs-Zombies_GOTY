@@ -9,10 +9,11 @@ Redesigned the limited Game of the Year Edition of the famous Plants Vs Zombies 
 
 ## Watch the Gameplay Trailer
 
-<a href="https://www.youtube.com/watch?v=y0q5dQo1IGY" target="_blank" rel="noopener noreferrer" style="display: inline-block; background-color: #ff0000; color: #ffffff; padding: 10px 20px; border-radius: 5px; text-decoration: none; font-weight: bold; text-transform: uppercase; font-size: 14px; letter-spacing: 1px; text-align: center;">
-  <img src="https://upload.wikimedia.org/wikipedia/commons/4/42/YouTube_icon_%282013-2017%29.png" alt="YouTube Logo" style="vertical-align: middle; margin-right: 10px;">
-  Watch on YouTube
+<a href="https://www.youtube.com/watch?v=y0q5dQo1IGY" target="_blank" rel="noopener noreferrer" style="display: inline-block; background-color: #ff0000; color: #ffffff; padding: 10px 20px; border-radius: 5px; text-decoration: none; font-weight: bold; text-transform: uppercase; font-size: 14px; letter-spacing: 1px; text-align: center; position: relative;">
+  <img src="https://img.youtube.com/vi/y0q5dQo1IGY/0.jpg" alt="YouTube Thumbnail" style="vertical-align: middle; margin-right: 10px; width: 100px; height: auto;">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/YouTube_play_button_red_shadow.svg/1200px-YouTube_play_button_red_shadow.svg.png" alt="YouTube Logo" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 40px; height: auto;">
 </a>
+
 ---
 
 ## ZombieWarFrame Storyline
