@@ -2,16 +2,6 @@ Here's an enhanced version of your README with better heading design and clear s
 
 ---
 
-# Plants-Vs-Zombies_GOTY
-Redesigned the limited Game of the Year Edition of the famous Plants Vs Zombies Game using SFML Library in C++
-
-![Screenshot of the game](https://github.com/talhashafi-04/Plants-Vs-Zombies_GOTY/blob/67169ae7f5d70d76dfb8716446bfe4fba90a9656/ScreenShots/pvz%204.png)
-
-## Watch the Youtube Gameplay Trailer
-
-[![Gameplay Trailer](https://img.youtube.com/vi/y0q5dQo1IGY/0.jpg)](https://www.youtube.com/watch?v=y0q5dQo1IGY)
-
----
 
 ## ZombieWarFrame Storyline
 
@@ -26,6 +16,17 @@ In the peaceful world of Verdantia, a terrible invasion occurred. Extraterrestri
 
 
 In "Plants-Vs-Zombies" , players strategically defend their home from invading zombies by planting various defensive plants. At the start of each level, players select plants from their inventory using seed packets. These plants possess unique abilities, such as attacking zombies, generating sunlight (the in-game currency), or providing defensive barriers. Sunlight is crucial for planting, collected by clicking on sun icons that randomly appear on the lawn or using sun-producing plants like Sunflowers. Players place their chosen plants on the gridded lawn, strategically positioning them to counter waves of incoming zombies, each with different abilities and vulnerabilities. The game's controls primarily involve mouse interaction, with players using the mouse to navigate menus, select plants, and place them on the grid. Clicking is used to collect sunlight, select plants, and interact with in-game elements like zombies and special abilities. Keyboard shortcuts may also be available for certain actions, such as pausing the game or accessing menus. Overall, "Plants vs. Zombies" offers accessible mechanics and controls, making it enjoyable for players of all skill levels.
+
+---
+
+# Plants-Vs-Zombies_GOTY
+Redesigned the limited Game of the Year Edition of the famous Plants Vs Zombies Game using SFML Library in C++
+
+![Screenshot of the game](https://github.com/talhashafi-04/Plants-Vs-Zombies_GOTY/blob/67169ae7f5d70d76dfb8716446bfe4fba90a9656/ScreenShots/pvz%204.png)
+
+## Watch the Youtube Gameplay Trailer
+
+[![Gameplay Trailer](https://img.youtube.com/vi/y0q5dQo1IGY/0.jpg)](https://www.youtube.com/watch?v=y0q5dQo1IGY)
 
 ---
 
