@@ -104,6 +104,7 @@ To get a copy of the project up and running, you have two options: cloning the r
 - Ensure that you have installed Visual Studio 2022 with the Desktop Development with C++ workload.
 - If you encounter any issues with missing files or dependencies, make sure that all files have been properly cloned/downloaded and extracted.
 
+
 ### **Additional Information**
 
 - For more detailed instructions on using Git, refer to the [Git Documentation](https://git-scm.com/doc).
